@@ -1,4 +1,4 @@
-def pageCount(n, p)
+def page_count(n, p)
   # front
   front = (p / 2).floor
 
