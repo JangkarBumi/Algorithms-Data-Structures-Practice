@@ -42,34 +42,7 @@ class Node
   list.add(5)
   puts list.get(1)
 
-#boilerplate    
-class Node
-    attr_accessor :value, :next_node
-    
-    def initialize(value, next_node = nil)
-        @value = value
-      @next_node = next_node
-    end
-  end
-  
-  class LinkedList
-    #setup head and tail
-  
-    def add(number)
-      # your code here
-    end
-  
-    def get(index)
-      # your code here
-    end
-  end
-  
-  list = LinkedList.new
-  
-  list.add(3)
-  list.add(5)
-  puts list.get(1)
-  
+
 
 
 
@@ -116,3 +89,32 @@ Linked List Drawbacks:
 2) Extra memory space for a pointer is required with each element of the list.
 3) Not cache friendly. Since array elements are contiguous locations, there is locality of reference which is not there in case of linked lists.
 =end
+
+#boilerplate    
+class Node
+    attr_accessor :value, :next_node
+    
+    def initialize(value, next_node = nil)
+        @value = value
+      @next_node = next_node
+    end
+  end
+  
+  class LinkedList
+    #setup head and tail
+  
+    def add(number)
+      # your code here
+    end
+  
+    def get(index)
+      # your code here
+    end
+  end
+  
+  list = LinkedList.new
+  
+  list.add(3)
+  list.add(5)
+  puts list.get(1)
+  
